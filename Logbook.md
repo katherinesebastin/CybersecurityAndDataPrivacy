@@ -9,3 +9,5 @@
 | 13.01.2026 | 1 | Completed Module 2 quiz, studied Module 3  | Learned basic methods to protect personal data and maintain privacy online |
 | 14.01.2026 | 1 | Completed Module 3 quiz, read section 4.1.1 of Module 4  | Learned basic organizational cybersecurity measures and practices |
 | 15.01.2026 | 2 | Completed remaining Module 4 topics and quiz, completed Module 5, took final exam | Learned about organizational security and career paths in cybersecurity, passed course final exam |
+| 15.01.2026 | 2 | Lecture on introduction to PortSwigger and explanation of the corresponding assignment | Understood the purpose of PortSwigger and understood assignment requirements |
+| 21.01.2026 | 2 | Lecture on booking project system and its requirements, penetration testing, vulnerabilities, security measures and countermeasures | Gained a basic understanding of the booking project system |
