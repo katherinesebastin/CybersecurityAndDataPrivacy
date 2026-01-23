@@ -11,3 +11,5 @@
 | 15.01.2026 | 2 | Completed remaining Module 4 topics and quiz, completed Module 5, took final exam | Learned about organizational security and career paths in cybersecurity, passed course final exam |
 | 15.01.2026 | 2 | Lecture on introduction to PortSwigger and explanation of the corresponding assignment | Understood the purpose of PortSwigger and understood assignment requirements |
 | 21.01.2026 | 2 | Lecture on booking project system and its requirements, penetration testing, vulnerabilities, security measures and countermeasures | Gained a basic understanding of the booking project system |
+| 22.01.2026 | 3 | Completed 2 PortSwigger labs on SQL Injection and 2 on Authentication after studying the required materials | Developed an understanding of SQL injection vulnerabilities and authentication flaws, and learned how weaknesses can be exploited and prevented |
+| 23.01.2026 | 1 | Completed 2 PortSwigger labs on Access Control after studying the required materials | Gained experience in identifying access control vulnerabilities and understanding proper access control |
