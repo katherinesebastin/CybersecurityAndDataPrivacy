@@ -13,3 +13,4 @@
 | 21.01.2026 | 2 | Lecture on booking project system and its requirements, penetration testing, vulnerabilities, security measures and countermeasures | Gained a basic understanding of the booking project system |
 | 22.01.2026 | 3 | Completed 2 PortSwigger labs on SQL Injection and 2 on Authentication after studying the required materials | Developed an understanding of SQL injection vulnerabilities and authentication flaws, and learned how weaknesses can be exploited and prevented |
 | 23.01.2026 | 1 | Completed 2 PortSwigger labs on Access Control after studying the required materials | Gained experience in identifying access control vulnerabilities and understanding proper access control |
+| 31.01.2026 | 4 | Performed manual testing for Phase 1, Part 1 of the booking system | Identified security flaws and documented findings in the test report |
