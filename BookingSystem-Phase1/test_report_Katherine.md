@@ -1,42 +1,44 @@
-# 1️⃣ Introduction
+# 1️⃣ Introduction  
 
-**Tester(s):**  
-- Name:  
+**Tester(s):**    
+- Name: Katherine Sebastin    
 
-**Purpose:**  
-- Describe the purpose of this test (e.g., identify vulnerabilities in registration and authentication flows).
+**Purpose:**    
+- To identify vulnerabilities in the user registration of the booking system      
 
-**Scope:**  
-- Tested components:  
-- Exclusions:  
-- Test approach: Gray-box / Black-box / White-box
+**Scope:**    
+- Tested components: User registration page, database, input validation    
+- Exclusions: Login, session management, resource booking    
+- Test approach: Gray-box    
 
-**Test environment & dates:**  
-- Start:  
-- End:  
-- Test environment details (OS, runtime, DB, browsers):
+**Test environment & dates:**    
+- Start: 31.01.2026    
+- End:  31.01.2026    
+- Test environment details (OS, runtime, DB, browsers): macOS, Docker containers (PostgreSQL + Web App), Chrome    
 
-**Assumptions & constraints:**  
-- e.g., credentials provided, limited time, etc.
-
----
-
-# 2️⃣ Executive Summary
-
-**Short summary (1-2 sentences):**  
-
-**Overall risk level:** (Low / Medium / High / Critical)
-
-**Top 5 immediate actions:**  
-1.  
-2.  
-3.  
-4.  
-5.  
+**Assumptions & constraints:**    
+- Access to the local lab environment      
+- No real user data used      
 
 ---
 
-# 3️⃣ Severity scale & definitions
+# 2️⃣ Executive Summary  
+
+**Short summary:**  
+The registration validates some inputs (empty fields, email format, username length) but has flaws like weak password acceptance, lack of age validation, role manipulation and missing security features (captcha, confirm password).  
+
+**Overall risk level:** High  
+
+**Top 5 immediate actions:**    
+1. Add age validation for registrants  
+2. Restrict role assignment to administrators  
+3. Implement password strength requirements and confirm password field  
+4. Add captcha to prevent automated registrations  
+5. Ensure proper input sanitization and hashing of passwords in the database  
+
+---
+
+# 3️⃣ Severity scale & definitions  
 
 |  **Severity Level**  | **Description**                                                                                                              | **Recommended Action**           |
 | -------------------- | ---------------------------------------------------------------------------------------------------------------------------- | -------------------------------- |
@@ -48,15 +50,15 @@
 
 ---
 
-# 4️⃣ Findings (filled with examples → replace)
-
-> Fill in one row per finding. Focus on clarity and the most important issues.
+# 4️⃣ Findings  
 
 | ID | Severity | Finding | Description | Evidence / Proof |
 |------|-----------|----------|--------------|------------------|
-| F-01 | 🔴 High | SQL Injection in registration | Input field allows `' OR '1'='1` injection | Screenshot or sqlmap result |
-| F-02 | 🟠 Medium | Session fixation | Session ID remains unchanged after login | Burp log or response headers |
-| F-03 | 🟡 Low | Weak password policy | Accepts passwords like "12345" | Screenshot of registration success |
+| F-01 | 🔴 High | Role manipulation | Users can set their role to 'administrator' during registration | Registered 'test@test.com' with role administrator, shown in DB table booking_users |
+| F-02 | 🔴 High | Missing age validation | Users can register with any birthdate, including underage | Birthdate field accepted 31.01.2026 |
+| F-03 | 🔴 High | Weak password | Password field accepts weak passwords (e.g., efgh) with no warnings | Registration of 'test@test.com' succeeded with weak password |
+| F-04 | 🟠 Medium | Missing confirm password & captcha | No confirm password field or captcha, allowing accidental or automated registrations | UI observation during manual testing |
+
 
 ---
 
