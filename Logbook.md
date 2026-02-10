@@ -15,3 +15,4 @@
 | 23.01.2026 | 1 | Completed 2 PortSwigger labs on Access Control after studying the required materials | Gained experience in identifying access control vulnerabilities and understanding proper access control |
 | 31.01.2026 | 0.5 | Installed Docker | Docker was installed |
 | 02.02.2026 | 3 | Attended lab, completed a PortSwigger exercise, did ZAP testing, completed the test report | Gained experience in web application security testing using OWASP ZAP |
+| 10.02.2026 | 1.5 | Completed Booking System Phase 1, Part 2 - did ZAP scan and wrote the test report | Practiced vulnerability scanning with ZAP and documented security findings. |
