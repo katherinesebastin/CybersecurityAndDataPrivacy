@@ -81,18 +81,16 @@ MD5 is extremely fast, which allows an attacker to test millions or billions of 
 
 A Dictionary attack uses a predefined list of possible passwords. It works well because many users choose predictable passwords.  
 A Non-Dictionary attack (brute-force attack) tries every possible character combination within a given length and character set. It does not rely on common words but tests all possibilities.  
-
 Main difference:  
-- Dictionary attack → Faster against human passwords  
-- Non-dictionary attack → Tries all combinations; slower but eventually successful  
+- Dictionary attack - Faster against human passwords  
+- Non-dictionary attack - Tries all combinations, slower but eventually successful  
 
 #### What advantage does an attacker gain by having access to the system’s database with password hashes?  
 
 When an attacker has access to the database, the attack becomes offline.  
-
 Advantages:    
-- Unlimited password attempts
-- No account lockout
+- Unlimited password attempts  
+- No account lockout  
 - No detection by the application  
 
 This increases the possibility of successfully recovering passwords.
@@ -100,11 +98,6 @@ This increases the possibility of successfully recovering passwords.
 #### What concrete security benefits are achieved by using longer passwords?  
 
 Longer passwords are harder to guess because every extra character makes the number of possible combinations grow exponentially.  
-
-For example:  
-- A 6 character lowercase password → 26⁶ combinations  
-- A 12 character password using letters, numbers and symbols → 95¹² combinations  
-
 Security benefits:  
 - Much longer cracking time  
 - Stronger resistance to brute-force attacks  
