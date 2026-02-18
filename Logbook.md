@@ -10,9 +10,10 @@
 | 14.01.2026 | 1 | Completed Module 3 quiz, read section 4.1.1 of Module 4  | Learned basic organizational cybersecurity measures and practices |
 | 15.01.2026 | 2 | Completed remaining Module 4 topics and quiz, completed Module 5, took final exam | Learned about organizational security and career paths in cybersecurity, passed course final exam |
 | 15.01.2026 | 2 | Lecture on introduction to PortSwigger and explanation of the corresponding assignment | Understood the purpose of PortSwigger and understood assignment requirements |
-| 21.01.2026 | 2 | Lecture on booking project system and its requirements, penetration testing, vulnerabilities, security measures and countermeasures | Gained a basic understanding of the booking project system |
-| 22.01.2026 | 3 | Completed 2 PortSwigger labs on SQL Injection and 2 on Authentication after studying the required materials | Developed an understanding of SQL injection vulnerabilities and authentication flaws |
-| 23.01.2026 | 1 | Completed 2 PortSwigger labs on Access Control after studying the required materials | Gained experience in identifying access control vulnerabilities and understanding proper access control |
+| 21.01.2026 | 2 | Lecture on booking project system and its requirements, penetration testing, vulnerabilities, security measures and countermeasures | Gained understanding of the booking project system |
+| 22.01.2026 | 3 | Completed 2 PortSwigger labs on SQL Injection and 2 on Authentication after studying the required materials | Gained an understanding of SQL injection vulnerabilities and authentication flaws |
+| 23.01.2026 | 1 | Completed 2 PortSwigger labs on Access Control after studying the required materials | Gained experience in identifying access control vulnerabilities and proper access control |
 | 31.01.2026 | 0.5 | Installed Docker | Docker was installed |
-| 02.02.2026 | 3 | Attended lab, completed a PortSwigger exercise, did ZAP testing, completed the test report | Gained experience in web application security testing using OWASP ZAP |
-| 10.02.2026 | 1.5 | Completed Booking System Phase 1, Part 2 - did ZAP scan and wrote the test report | Practiced vulnerability scanning with ZAP and documented security findings. |
+| 02.02.2026 | 3 | Attended lab, completed a PortSwigger exercise, did ZAP testing, completed the test report | Gained experience in web application security testing using ZAP |
+| 10.02.2026 | 1.5 | Completed Booking System Phase 1, Part 2 - did ZAP scan and wrote the test report | Practiced vulnerability scanning with ZAP and documented security findings |
+| 17.02.2026 | 2 | Completed Booking Project Phase 2 and wrote the report | Identified vulnerabilities in the booking system and documented them in a report |
