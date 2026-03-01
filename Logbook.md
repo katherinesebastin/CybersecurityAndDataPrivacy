@@ -16,4 +16,5 @@
 | 31.01.2026 | 0.5 | Installed Docker | Docker was installed |
 | 02.02.2026 | 3 | Attended lab, completed a PortSwigger exercise, did ZAP testing, completed the test report | Gained experience in web application security testing using ZAP |
 | 10.02.2026 | 1.5 | Completed Booking System Phase 1, Part 2 - did ZAP scan and wrote the test report | Practiced vulnerability scanning with ZAP and documented security findings |
-| 17.02.2026 | 2 | Completed Booking Project Phase 2 and wrote the report | Identified vulnerabilities in the booking system and documented them in a report |
+| 17.02.2026 | 2 | Completed Booking System Phase 2 and wrote the report | Identified vulnerabilities in the booking system and documented them in the report |
+| 01.03.2026 | 3 | Completed Booking System Phase 3 and wrote the report | Identified vulnerabilities in the booking system and documented them in the report |
