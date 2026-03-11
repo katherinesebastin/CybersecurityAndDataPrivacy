@@ -10,8 +10,8 @@
 
 | **Result** | **User registration and management** |
 | :----: | :--- |
-| ❌ | Does the registration form (page) include GDPR-compliant consent for processing personal data (e.g., acceptance of the privacy policy)?|
-| ⚠️ | Can users view, edit, and delete their own personal data via their account? |
+| ❌ | Registration form does not show GDPR consent (no privacy policy checkbox)|
+| ⚠️ | Users can view data, but editing/deleting is not possible |
 | ✅ | Is there a mechanism for the administrator to delete a reserver in accordance with the "right to be forgotten"? |
 | ✅ | Is underage registration (under 15 years) and booking functionality restricted? |
 
@@ -26,9 +26,9 @@
 
 | **Result** | **Access control and authorization** |
 | :----: | :--- |
-| ⚠️ | Have you ensured that only administrators can add, modify, and delete resources and bookings? |
+| ⚠️ | Users can modify bookings and administrators cannot add bookings, so booking management is not completely restricted |
 | ✅ | Is the system using role-based access control (e.g., reserver vs. administrator)? |
-| ⚠️ | Are administrator privileges limited to ensure GDPR compliance (e.g., administrators cannot use data for unauthorized purposes)? |
+| ⚠️ | Admin privileges exist, but there is no proof preventing misuse of personal data |
 
 ---
 
@@ -44,31 +44,31 @@
 | :----: | :--- |
 | ✅ | Are CSRF, XSS, and SQL injection protections implemented? |
 | ✅ | Are passwords securely hashed using a strong algorithm (e.g., bcrypt, Argon2)? |
-| ⚠️ | Are data backup and recovery processes GDPR-compliant? |
-| ⚠️ | Is personal data stored in data centers located within the EU? |
+| ⚠️ | Backup and recovery policy is not documented or visible |
+| ⚠️ | Hosting location is not specified, so EU data center compliance cannot be verified |
 
 ---
 
 | **Result** | **Data anonymization and pseudonymization** |
 | :----: | :--- |
 | ✅ | Is personal data anonymized where possible? |
-| ⚠️ | Are pseudonymization techniques used to protect data while maintaining its utility? |
+| ⚠️ | Pseudonymization techniques cannot be verified |
 
 ---
 
 | **Result** | **Data subject rights** |
 | :----: | :--- |
-| ❌ | Can users download or request all personal data related to them (data access request)? |
-| ❌ | Is there an interface or process for users to request the deletion of their personal data? |
-| ❌ | Can users withdraw their consent for data processing? |
+| ❌ | Users cannot download or request all personal data related to them |
+| ❌ | No interface exists for users to request deletion of their personal data |
+| ❌ | Users cannot withdraw consent for data processing |
 
 ---
 
 | **Result** | **Documentation and communication** |
 | :----: | :--- |
-| ❌ | Is there a privacy policy available to users during registration and easily accessible? |
-| ⚠️ | Are administrators and developers provided with documented data protection practices and processing activities? |
-| ⚠️ | Is there a documented data breach response process (e.g., how to notify authorities and users of a breach)? |
+| ❌ | Privacy policy page does not exist and it is not accessible in the application |
+| ⚠️ | No documented practices available for administrators/developers regarding data protection |
+| ⚠️ | No documented data breach response process is available |
 
 ---
 
