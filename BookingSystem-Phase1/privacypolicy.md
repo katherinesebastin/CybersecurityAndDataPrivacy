@@ -36,4 +36,4 @@ Users have the right to:
 Personal data is stored only as long as necessary for the operation of the booking system and will be deleted when no longer needed.
 
 ## Contact
-For questions regarding privacy or personal data processing, please contact the system administrator at [admin@example.com].
+For questions regarding privacy or personal data processing, please contact the system administrator at admin@example.com.
