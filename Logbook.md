@@ -20,3 +20,5 @@
 | 01.03.2026 | 3 | Completed Booking System Phase 3 and wrote the report | Identified vulnerabilities in the booking system and documented them in the report |
 | 11.03.2026 | 2 | Completed Booking System Phase 4 | Gained experience in data privacy compliance by applying GDPR principles |
 | 11.03.2026 | 2 | Completed PortSwigger SQL Injection Labs 3–6 | Practiced various SQL injection vulnerabilities |
+| 12.03.2026 | 3 | Completed PortSwigger Access Control Labs 3–6 | Practised identifying access control vulnerabilities |
+
