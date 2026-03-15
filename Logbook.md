@@ -12,13 +12,14 @@
 | 15.01.2026 | 2 | Lecture on introduction to PortSwigger and explanation of the corresponding assignment | Understood PortSwigger and understood assignment requirements |
 | 21.01.2026 | 2 | Lecture on booking project system and its requirements, penetration testing, vulnerabilities, security measures and countermeasures | Gained understanding of the booking project system |
 | 22.01.2026 | 3 | Completed 2 PortSwigger labs on SQL Injection and 2 on Authentication after studying the materials | Gained an understanding of SQL injection and authentication flaws |
-| 23.01.2026 | 1 | Completed 2 PortSwigger labs on Access Control after studying the materials | Gained an understanding in access control vulnerabilities and proper access control |
-| 31.01.2026 | 0.5 | Installed Docker | Docker was installed |
-| 02.02.2026 | 3 | Attended lab, completed a PortSwigger exercise, did ZAP testing, completed the test report | Gained experience in web application security testing using ZAP |
-| 10.02.2026 | 1.5 | Completed Booking System Phase 1, Part 2 - did ZAP scan and wrote the test report | Practiced vulnerability scanning with ZAP and documented security findings |
+| 23.01.2026 | 2 | Completed 2 PortSwigger labs on Access Control after studying the materials | Gained an understanding in access control vulnerabilities and proper access control |
+| 31.01.2026 | 2 | Installed Docker | Docker was installed after facing some errors |
+| 02.02.2026 | 4 | Attended lab, completed a PortSwigger exercise, did ZAP testing, completed the test report | Gained experience in web application security testing using ZAP |
+| 10.02.2026 | 2 | Completed Booking System Phase 1, Part 2 - did ZAP scan and wrote the test report | Practiced vulnerability scanning with ZAP and documented security findings |
 | 17.02.2026 | 2 | Completed Booking System Phase 2 and wrote the report | Identified vulnerabilities in the booking system and documented them in the report |
 | 01.03.2026 | 3 | Completed Booking System Phase 3 and wrote the report | Identified vulnerabilities in the booking system and documented them in the report |
 | 11.03.2026 | 2 | Completed Booking System Phase 4 | Gained experience in data privacy compliance by applying GDPR principles |
 | 11.03.2026 | 2 | Completed PortSwigger SQL Injection Labs 3–6 | Practiced various SQL injection vulnerabilities |
 | 12.03.2026 | 4 | Completed PortSwigger Access Control Labs 3–6, 8 | Practised identifying access control vulnerabilities |
-| 15.03.2026 | 6 | Completed PortSwigger Authentication Control Labs 3, 4, 6, 9 | Practiced identifying authentication vulnerabilities |
+| 14.03.2026 | 6 | Completed PortSwigger Authentication Control Labs 3, 4, 6, 9 | Practiced identifying authentication vulnerabilities |
+| 15.03.2026 | 4 | Writing and completing the final report | Summarized all the security tests and organized and presented the results in a report |
