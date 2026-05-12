@@ -1,20 +1,20 @@
 # 1️⃣ Introduction      
 
 **Tester(s):**      
-- Name: Alena Genkinger, Katherine Sebastin      
+- **Name:** Alena Genkinger, Katherine Sebastin      
 
 **Purpose:**      
 - To identify security vulnerabilities in the registration functionality.      
 
 **Scope:**      
-- Tested components: User registration    
-- Exclusions: Authentication after login, authorization    
-- Test approach: White-box      
+- **Tested components:** User registration    
+- **Exclusions:** Authentication after login, authorization    
+- **Test approach:** White-box      
 
 **Test environment & dates:**      
-- Start: 02.02.2026      
-- End:  02.02.2026      
-- Test environment details (OS, runtime, DB, browsers): Linux (Debian), Web application running on http://localhost:8001, PostgreSQL, Firefox    
+- **Start:** 02.02.2026      
+- **End:** 02.02.2026      
+- **Test environment details (OS, runtime, DB, browsers):** Linux (Debian), Web application running on http://localhost:8001, PostgreSQL, Firefox    
 
 **Assumptions & constraints:**      
 - Testing was done in a local Docker environment        
@@ -57,7 +57,7 @@ The security assessment identified multiple high and medium risk vulnerabilities
 |------|-----------|----------|--------------|------------------|
 | F-01 | 🔴 High | SQL Injection | The username parameter in the registration is vulnerable to SQL Injection, allowing query manipulation and server errors | ZAP detected boolean-based SQL Injection and HTTP 500 errors |
 | F-02 | 🔴 High | Path Traversal | User input in the registration is not properly validated, potentially allowing access to unintended file paths | ZAP Path Traversal alert on /register |
-| F-03 | 🟠 Medium  | Absence of Anti-CSRF Tokens | The registration does not include an Anti-CSRF token, making it vulnerable to CSRF attacks | <form action="/register" method="POST"> without CSRF token |
+| F-03 | 🟠 Medium  | Absence of Anti-CSRF Tokens | The registration does not include an Anti-CSRF token, making it vulnerable to CSRF attacks | /register without CSRF token |
 | F-04 | 🟠 Medium | Missing Security Headers | Important headers like Content-Security-Policy and X-Frame-Options are not set, increasing XSS and clickjacking risks | ZAP header analysis |
 | F-05 | 🟡 Low | Application Error Disclosure | Server returns detailed error responses (HTTP 500), which may reveal internal application details | HTTP/1.1 500 Internal Server Error |
 
