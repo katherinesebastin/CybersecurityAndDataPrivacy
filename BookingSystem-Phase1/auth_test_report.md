@@ -38,20 +38,20 @@
 
 ### Reserver
 
-- Can:  
+- **Can:**  
   - Book resource  
   - View own reservations  
   - Edit own reservation  
   - Delete own reservation  
 - Cannot access admin endpoints (`/admin`, `/admin/users`, `/admin/resources`) -> backend correctly blocks    
 - **Issue:** `/api/users` exposed, lists all users including administrators    
-- Accessing `/api/reservations/2` shows reservation belonging to administrator -> potential IDOR / data exposure    
+- Accessing `/api/reservations/2` shows reservation belonging to administrator -> potential data exposure    
 - PUT / DELETE on reservations not owned by Reserver -> 404  
 - Data exposure of other user's reservations   
 
 ### Administrator
 
-- Can:  
+- **Can:**  
   - Add / delete resources  
   - View all reservations  
   - Modify / delete reservations 
